@@ -1,0 +1,7 @@
+{
+  "name": "ReadLeadSucced",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
