@@ -6,6 +6,7 @@ const routes: Routes = [
     path: 'catalogue',
     loadChildren: () => import('./pages/catalogue/catalogue.module').then(m => m.CataloguePageModule)
   },
+  { 
   path: '',
   redirectTo: 'catalogue',
   pathMatch: 'full'
