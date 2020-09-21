@@ -8,6 +8,8 @@ import { CataloguePageRoutingModule } from './catalogue-routing.module';
 
 import { CataloguePage } from './catalogue.page';
 
+
+
 @NgModule({
   imports: [
     CommonModule,
