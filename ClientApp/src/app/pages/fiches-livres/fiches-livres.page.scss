@@ -1,0 +1,134 @@
+
+
+ion-card{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+ion-card-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+
+ion-content{
+    --background:#DBDBDB ;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    
+ion-button{
+    --background:#C3C3C3 ;
+    width: 200px;
+    }
+    
+.auteurTitre{
+    margin-left: 20px; 
+    background-color: #DBDBDB; 
+}
+
+body{
+    background-color: #DBDBDB; 
+}
+
+.auteurTitre h4{
+    margin-top: 8px;
+    margin-bottom: 5px; 
+} 
+
+.auteurTitre h2{
+    margin-top: 0px;
+    margin-bottom: 0px; 
+} 
+
+.auteurTitre hr.solid {
+    border-top: 3px solid black;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container-image {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 7px;
+  }
+
+.interCol{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+  }
+
+.logo{
+    width: 15%;
+    height: 15%;
+  }
+
+.shopping{
+    width: 14%;
+    height: 14%;
+    position: relative;
+    left:110px;
+  }
+
+
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.page{
+background-color:#DBDBDB ;
+}
+
+
+.vl {
+    border-left: 1px solid #707070;
+    height: 150px;
+    margin-left: 10px;
+    }
+
+.Quanti{
+    margin-top: 30px;
+    }
+
+.colDroite{
+    padding-left: 10px;
+    padding-right: 0px;
+    }
+
+.descriptionHeader{
+        padding-left: 10px;
+    }
+.description h5 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+hr.solidDescription  {
+    border-top: 2px solid black;
+    margin-left: 0px;
+    width: 70%;
+}
+.sameBook h5 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+hr.solidSameBook  {
+    border-top: 2px solid black;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.sameBook ion-card-header{
+    padding-bottom: 0px;
+}
+
+
+.sameBookHeader{
+    padding-left: 10px;
+}
