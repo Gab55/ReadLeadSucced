@@ -1,5 +1,4 @@
 <ion-header>
-
   <ion-toolbar>
     <div class="container-image">
         <div class="logo">
@@ -14,18 +13,17 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
-  <h2>Auteur</h2> 
-  <h1>Titre livre</h1>  
-  <hr class="solid">
   <ion-content>
+    <div class="auteurTitre">
+      <h4>Auteur</h4> 
+      <h2>Titre livre</h2>
+      <hr class="solid">
+    </div>  
     <ion-card>
       <ion-card-content>
-
         <ion-grid>
           <ion-row>
               <ion-col>
@@ -36,7 +34,7 @@
               </ion-col>
             <ion-col class="colDroite">
               <ion-row>
-                <ion-label>Nom du livre</ion-label>
+                <ion-label>Prix : 20 E</ion-label>
               </ion-row>
               <ion-row>
                 <ion-label>Stock</ion-label>
@@ -44,7 +42,7 @@
               <ion-row class="Quanti">
               <ion-item>
                 <ion-label>Quantité</ion-label>
-                <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+                <ion-select value="brown" okText="Valider" cancelText="Retour">
                   <ion-select-option value="brown">1</ion-select-option>
                   <ion-select-option value="blonde">2</ion-select-option>
                   <ion-select-option value="black">3</ion-select-option>
@@ -65,8 +63,8 @@
       </ion-card-content>
     </ion-card>
     <ion-card class="description">
-      <ion-card-header>
-        <h3>Description</h3> 
+      <ion-card-header class="descriptionHeader">
+        <h5>Description</h5>
         <hr class="solidDescription">
       </ion-card-header>
       <ion-card-content>
@@ -77,8 +75,8 @@
     </ion-card>
 
     <ion-card class="sameBook">
-      <ion-card-header>
-        <h3>Description</h3> 
+      <ion-card-header class="sameBookHeader">
+        <h5>Livres du même auteur ...</h5> 
         <hr class="solidSameBook">
       </ion-card-header>
       <ion-card-content>

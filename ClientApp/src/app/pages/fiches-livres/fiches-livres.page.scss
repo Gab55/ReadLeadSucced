@@ -4,12 +4,14 @@ ion-toolbar{
 
 
 ion-card{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     margin-top: 5px;
 }
 ion-card-content{
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     }
 
 ion-content{
@@ -22,6 +24,33 @@ ion-button{
     --background:#C3C3C3 ;
     width: 200px;
     }
+    
+.auteurTitre{
+    margin-left: 20px; 
+    background-color: #DBDBDB; 
+}
+
+body{
+    background-color: #DBDBDB; 
+}
+
+.auteurTitre h4{
+    margin-top: 8px;
+    margin-bottom: 5px; 
+} 
+
+.auteurTitre h2{
+    margin-top: 0px;
+    margin-bottom: 0px; 
+} 
+
+.auteurTitre hr.solid {
+    border-top: 3px solid black;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 .container-image {
     display: flex;
@@ -49,10 +78,7 @@ ion-button{
     left:110px;
   }
 
-hr.solid {
-    border-top: 3px solid black;
-    width: 90%;
-}
+
 
 h1 {
     margin-bottom: 0px;
@@ -66,12 +92,12 @@ background-color:#DBDBDB ;
 
 .vl {
     border-left: 1px solid #707070;
-    height: 200px;
+    height: 150px;
     margin-left: 10px;
     }
 
 .Quanti{
-    margin-top: 70px;
+    margin-top: 30px;
     }
 
 .colDroite{
@@ -79,16 +105,19 @@ background-color:#DBDBDB ;
     padding-right: 0px;
     }
 
-.description h3 {
+.descriptionHeader{
+        padding-left: 10px;
+    }
+.description h5 {
     margin-bottom: 0px;
     margin-top: 0px;
 }
 hr.solidDescription  {
     border-top: 2px solid black;
     margin-left: 0px;
-    width: 60%;
+    width: 70%;
 }
-.sameBook h3 {
+.sameBook h5 {
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -100,4 +129,9 @@ hr.solidSameBook  {
 
 .sameBook ion-card-header{
     padding-bottom: 0px;
+}
+
+
+.sameBookHeader{
+    padding-left: 10px;
 }
