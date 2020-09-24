@@ -10,6 +10,13 @@ ion-toolbar{
     padding-top: 7px;
   }
 
+.interCol{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+  }
+
 .logo{
     width: 15%;
     height: 15%;
@@ -21,3 +28,57 @@ ion-toolbar{
     position: relative;
     left:110px;
   }
+
+hr.solid {
+    border-top: 3px solid black;
+    width: 90%;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+ion-card{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ion-card-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+ion-content{
+    --background:#DBDBDB ;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    
+ion-button{
+    --background:#C3C3C3 ;
+    width: 200px;
+    }
+
+.page{
+background-color:#DBDBDB ;
+}
+
+
+.vl {
+    border-left: 1px solid #707070;
+    height: 200px;
+    margin-left: 10px;
+    }
+
+.Quanti{
+    margin-top: 70px;
+    }
+
+.colDroite{
+    padding-left: 10px;
+    padding-right: 0px;
+    }
+
+
+
+
