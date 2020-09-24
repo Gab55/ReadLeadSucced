@@ -1,3 +1,6 @@
+ion-toolbar{
+    --background: #454545;
+  }
 
 
 ion-card{
@@ -16,6 +19,7 @@ ion-content{
     padding-left: 10px;
     padding-right: 10px;
     }
+    
     
 ion-button{
     --background:#C3C3C3 ;
@@ -75,8 +79,6 @@ body{
     left:110px;
   }
 
-
-
 h1 {
     margin-bottom: 0px;
     margin-top: 0px;
@@ -128,7 +130,7 @@ hr.solidSameBook  {
     padding-bottom: 0px;
 }
 
-
 .sameBookHeader{
     padding-left: 10px;
 }
+
